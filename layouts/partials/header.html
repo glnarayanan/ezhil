@@ -9,6 +9,15 @@
 	<title>{{ $title }} - {{ $siteTitle }}</title>
 	{{- end -}}
 
+	<!-- LN Custom Scripts -->
+		<!-- Buy Me a Coffee -->
+		<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="glnarayanan" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. Please support me by buying a Coffee or two?" data-color="#5F7FFF" data-position="right" data-x_margin="18" data-y_margin="18"></script>
+
+		<!-- HockeyStack Analytics -->
+
+  	<script async data-apikey="6d6467d5a6e366ebad2e5fc91c0745" data-cookieless src="https://cdn.jsdelivr.net/npm/hockeystack@latest/hockeystack.min.js"></script>
+
+	<!-- LN Custom Scripts -->
 	{{- if isset .Site.Params "favicon" -}}
 	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
 	{{- end -}}
