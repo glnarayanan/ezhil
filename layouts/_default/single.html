@@ -27,6 +27,7 @@
 				{{ end }}
 			{{ end }}
 		</div>
+		{{ partial "hyvor.html" . }}
 <!-- 		{{- $.Scratch.Set "isDisqus" true -}} -->
 
 		<!-- Disable if content type is excluded in config -->
@@ -47,7 +48,7 @@
 		{{ end }} -->
 
 <!-- 		{{- if eq ($.Scratch.Get "isDisqus") true -}} -->
-		{{- partial "hyvor.html" . -}}
+		<!-- {{- partial "disqus.html" . -}} -->
 <!-- 		{{- end -}} -->
 	</div>
 	{{ partial "footer.html" . }}
